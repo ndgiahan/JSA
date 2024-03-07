@@ -106,22 +106,25 @@ console.log (students) //In ra mảng*/
     console.log(infomations[0][2][1]);
     console.log(infomations[0][0]+ " học lớp "+infomations[0][1]); //In ra câu "Hải Đăng học lớp JSB03" */
 
-    // - Một số phương thức của mảng: length, pop, shift
-// console.log("Độ dài của mảng này là: "+infomations.length);
-/*3. Object
-    - Tạo object
+
+/*3. OBJECT: ĐỐI TƯỢNG
+    3a. Tạo object
 */
-// const students = {
-//     name: "Hải Đăng",
-//     class: "JSA",
-//     language: ["Anh",{
-//         certificate1: "Toeic 750",
-//         certificate2: "Ielts 6.0"
-//     },
-//     "Việt"]
-// }
-// console.log(students.language[1].certificate2);
-   // - Thuộc tính
+//Cách 1: Sử dụng dấu {}
+/*const students = {
+    name: "Hải Đăng", //name trong đối tượng gọi là key, "Hải Đăng" trong đối tượng gọi là value, cả dòng 115 gọi là thuộc tính
+    class: "JSA",
+    language: ["Anh", "Việt"]
+}*/
+
+//3b. Truy cập đến thuộc tính của đối tượng
+// console.log(students.name); //kết quả ra "Hải Đăng"
+// console.log(students.language[0]); //kết quả ra "Anh"
+
+//Cách 2: Sử dụng new Object
+// Tham khảo: https://viblo.asia/p/doi-tuong-object-trong-javascript-63vKjn6dK2R 
+
+
 
 
 
